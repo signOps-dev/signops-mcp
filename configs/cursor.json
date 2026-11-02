@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "signops": {
+      "url": "https://api.signops.dev/mcp",
+      "headers": { "Authorization": "Bearer sk_test_..." }
+    }
+  }
+}

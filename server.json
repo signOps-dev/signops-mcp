@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.signops/signops",
+  "title": "SignOps",
+  "description": "Send push to Android, iOS and the web, and ask a trusted phone to approve a login, from your agent.",
+  "version": "1.0.0",
+  "websiteUrl": "https://signops.dev/docs/#mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.signops.dev/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer and your SignOps secret key. Use a test key (sk_test_) while building.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

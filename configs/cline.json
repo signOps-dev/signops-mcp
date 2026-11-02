@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "signops": {
+      "type": "streamableHttp",
+      "url": "https://api.signops.dev/mcp",
+      "headers": { "Authorization": "Bearer sk_test_..." },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
